@@ -53,7 +53,6 @@ Notes
 
 - The function computes the proportion of non-missing values in each column and then averages these proportions to get an overall completeness score.
 - It provides a bar chart visualization of completeness scores for each column.
-- If the overall completeness is 0, the function sets it to 1 to indicate that the dataset is completely missing data.
 - In case of any errors, the function returns an error message in the output dictionary.
 
 
