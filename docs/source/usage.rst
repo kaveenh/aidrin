@@ -3,9 +3,11 @@ Usage
 =====
 
 .. _usage:
+
 --
 UI
 --
+
 ----
 PyPI
 ----
