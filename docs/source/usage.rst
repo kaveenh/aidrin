@@ -1,21 +1,22 @@
+=====
 Usage
 =====
 
 .. _usage:
-
+--
 UI
-==
-
+--
+----
 PyPI
-====
+----
 
 Completeness
 ------------
 
 Calculate the completeness metric for each column and the overall completeness metric for the dataset.
 
-Usage
------
+Application
+...........
 
 .. code-block:: python
 
@@ -28,18 +29,18 @@ Usage
    print(completeness_result)
 
 Parameters
-----------
+..........
 
 **file** : DataFrame
    The input pandas DataFrame for which completeness metrics need to be calculated.
 
 Returns
--------
+.......
 
 A dictionary containing completeness scores for each column and the overall completeness score.
 
 Examples
---------
+........
 
 .. code-block:: python
 
@@ -49,7 +50,7 @@ Examples
    }
 
 Notes
------
+.....
 
 - The function computes the proportion of non-missing values in each column and then averages these proportions to get an overall completeness score.
 - It provides a bar chart visualization of completeness scores for each column.
