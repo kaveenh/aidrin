@@ -3,8 +3,8 @@ Installation Guide for AIDRIn
 
 .. _installation:
 
-UI Version Installation
------------------------
+Web Application Installation
+----------------------------
 
 .. note::
 
