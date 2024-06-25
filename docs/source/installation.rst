@@ -58,6 +58,8 @@ On Windows
 Using Conda (Cross-Platform)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Conda can be used on Linux, macOS, and Windows. Follow these steps to create and activate a Conda environment:
+
 1. Create a Conda environment:
 
 .. code-block:: shell
@@ -130,6 +132,8 @@ On Windows
 
 Using Conda (Cross-Platform)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Conda can be used on Linux, macOS, and Windows. Follow these steps to create and activate a Conda environment:
 
 1. Create a Conda environment:
 
