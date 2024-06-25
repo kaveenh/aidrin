@@ -3,8 +3,8 @@ Installation Guide for AIDRIn
 
 .. _installation:
 
-Web Application Installation
-----------------------------
+UI Version Installation
+-----------------------
 
 .. note::
 
@@ -12,7 +12,8 @@ Web Application Installation
 
 To install and run the UI version of AIDRIn, follow these steps:
 
-### Step 1: Clone the Repository
+Step 1: Clone the Repository
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open your terminal (or command prompt on Windows) and run the following commands:
 
@@ -21,9 +22,11 @@ Open your terminal (or command prompt on Windows) and run the following commands
     $ git clone https://github.com/idtlab/AIDRIn.git
     $ cd aidrin
 
-### Step 2: Create and Activate a Virtual Environment
+Step 2: Create and Activate a Virtual Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#### On Linux or macOS
+On Linux or macOS
+^^^^^^^^^^^^^^^^^
 
 1. Create a virtual environment:
 
@@ -37,7 +40,8 @@ Open your terminal (or command prompt on Windows) and run the following commands
 
     $ source .venv/bin/activate
 
-#### On Windows
+On Windows
+^^^^^^^^^^
 
 1. Create a virtual environment:
 
@@ -51,7 +55,8 @@ Open your terminal (or command prompt on Windows) and run the following commands
 
     $ .venv\Scripts\activate.bat
 
-#### Using Conda (Cross-Platform)
+Using Conda (Cross-Platform)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Create a Conda environment:
 
@@ -65,7 +70,8 @@ Open your terminal (or command prompt on Windows) and run the following commands
 
     $ conda activate aidrin
 
-### Step 3: Install AIDRIn Dependencies
+Step 3: Install AIDRIn Dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Inside the activated environment, install the dependencies:
 
@@ -73,7 +79,8 @@ Inside the activated environment, install the dependencies:
 
     $ pip install -e .
 
-### Step 4: Run the Application
+Step 4: Run the Application
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Start the application using Flask:
 
@@ -88,9 +95,11 @@ PyPI Package Installation
 
 To install and use the PyPI package version of AIDRIn, follow these steps:
 
-### Step 1: Create and Activate a Virtual Environment
+Step 1: Create and Activate a Virtual Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#### On Linux or macOS
+On Linux or macOS
+^^^^^^^^^^^^^^^^^
 
 1. Create a virtual environment:
 
@@ -104,7 +113,8 @@ To install and use the PyPI package version of AIDRIn, follow these steps:
 
     $ source .venv/bin/activate
 
-#### On Windows
+On Windows
+^^^^^^^^^^
 
 1. Create a virtual environment:
 
@@ -118,7 +128,8 @@ To install and use the PyPI package version of AIDRIn, follow these steps:
 
     $ .venv\Scripts\activate.bat
 
-#### Using Conda (Cross-Platform)
+Using Conda (Cross-Platform)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Create a Conda environment:
 
@@ -132,7 +143,8 @@ To install and use the PyPI package version of AIDRIn, follow these steps:
 
     $ conda activate aidrin
 
-### Step 2: Install AIDRIn from PyPI
+Step 2: Install AIDRIn from PyPI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Install the AIDRIn package from PyPI:
 
